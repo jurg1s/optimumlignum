@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/pages/Footer";
+import Home from "./components/pages/Home";
+import Kontaktai from "./components/pages/Kontaktai";
+import Apiemus from "./components/pages/Apiemus";
+import Visuomeniniai from "./components/pages/Visuomeniniai";
+import Individualus from "./components/pages/Individualus";
+import Baldurestauravimas from "./components/pages/Baldurestauravimas";
+import Baldugamyba from "./components/pages/Baldugamyba";
+import Interjeras from "./components/pages/Interjeras";
+import Gototop from "./components/Gototop";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+
+      <div className="container">
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/kontaktai" element={<Kontaktai />} />
+            <Route path="/apiemus" element={<Apiemus />} />
+            <Route path="/visuomeniniai" element={<Visuomeniniai />} />
+            <Route path="/individualus" element={<Individualus />} />
+            <Route
+              path="/baldurestauravimas"
+              element={<Baldurestauravimas />}
+            />
+            <Route path="/baldugamyba" element={<Baldugamyba />} />
+            <Route path="/interjeras" element={<Interjeras />} />
+          </Routes>
+        </ScrollToTop>
+      </div>
+      <Gototop />
+      <Footer />
+    </>
   );
 }
 

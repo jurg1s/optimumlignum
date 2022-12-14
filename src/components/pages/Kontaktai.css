@@ -1,0 +1,85 @@
+.contbox {
+padding-top: 150px;
+padding-bottom: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contbox .contcont {
+    padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  /* border: 1px dashed #141945; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   /* display: flex;
+  flex-direction: row
+  ; */
+}
+
+.ha {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  padding: 10px;
+  color:gray;
+
+}
+
+.hi {
+  padding: 10px;
+}
+
+.btn {
+  background-color: white !important;
+  border: 1px solid silver !important;
+  color: silver !important;
+}
+.btn:hover {
+  background-color: #f3b337 !important;
+  border: 0 !important;
+  color: white !important;
+
+  border: 1px solid transparent !important;
+}
+
+.form-control {
+  background-color: #fcfcfc !important;
+}
+
+.contactico{
+    padding-top: 30px;
+}
+.contactico h3{
+    font-family: 'Noto Emoji', sans-serif;
+    text-align: center;
+
+}
+.contactico p {
+    text-align: center;
+    
+}
+
+.contactico a {
+    color: gray!important;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+.contactico a:hover{
+    color: #f3b337!important;
+    cursor: pointer;
+}
+
+.head h2{
+    color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.ha a{
+    cursor: zoom-in;
+ 
+}
