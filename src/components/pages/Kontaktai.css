@@ -1,6 +1,5 @@
 .contbox {
-padding-top: 150px;
-padding-bottom: 200px;
+    padding: 100px 0;
 
   display: flex;
   align-items: center;
@@ -8,40 +7,46 @@ padding-bottom: 200px;
 }
 
 .contbox .contcont {
-    padding: 20px;
+    padding: 40px 0;
   width: 100%;
-  border-radius: 20px;
+  border: 1px solid #eaf0fc;
   /* border: 1px dashed #141945; */
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   /* display: flex;
+  box-shadow: 1px 3px 10px rgb(173 181 189 / 40%);   /* display: flex;
   flex-direction: row
   ; */
 }
 
-.ha {
+.ha a {
     display: flex;
     align-items: center;
-    justify-content: right;
+  
   padding: 10px;
   color:gray;
+  height: 100%;
+  background-image: url("/public//images/map1.jpg");
+  background-size: 130%;
+  padding: 20px;
 
 }
-
+.img-fluid{
+    opacity: 0;
+}
 .hi {
   padding: 10px;
 }
 
 .btn {
-  background-color: white !important;
-  border: 1px solid silver !important;
-  color: silver !important;
+  background-color: #FF7D00 !important;
+  border: 1px solid #FF7D00 !important;
+  color: white !important;
+  border-radius: 0!important;
+  width: 100%;
 }
 .btn:hover {
-  background-color: #f3b337 !important;
-  border: 0 !important;
-  color: white !important;
-
-  border: 1px solid transparent !important;
+  background-color: transparent !important;
+  color: #2C2E3F !important;
+ 
+  border: 1px solid #2C2E3F !important;
 }
 
 .form-control {
@@ -68,18 +73,33 @@ padding-bottom: 200px;
 
 }
 .contactico a:hover{
-    color: #f3b337!important;
+    color: #FF7D00!important;
     cursor: pointer;
 }
 
 .head h2{
-    color: gray;
-    text-align: center;
+    color: #2C2E3F;
+}
+.head h5{
+    color:silver;
     padding-bottom: 20px;
+
 }
 
 
 .ha a{
     cursor: zoom-in;
  
+}
+
+.form-control:focus {
+    border-color: #FF7D00!important;
+    box-shadow: 0 0 0 0.01rem #FF7D00!important;
+ 
+}
+
+.form-control{
+    border-radius: 0!important;
+    padding: 0.7rem 0.95rem!important;
+    border: 1px solid #ced4da!important;
 }

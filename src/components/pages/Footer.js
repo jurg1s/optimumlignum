@@ -5,9 +5,12 @@ const Footer = () => {
   return (
     <>
       <div className="contfooter ">
-        <footer className="up d-flex">
-          
+        <footer className="footercontent">
+          <div className="up ">
+            <div className="fimage "></div>
+          </div>
         </footer>
+
         <footer className="container bottom d-flex border-top">
           <p className="link text-center text-muted">
             &copy;copyright. designed and developed by
