@@ -31,13 +31,12 @@ function StyleActionsExample() {
             <Image src="/images/map1.jpg" rounded fluid />
           </a>
         </div>
-        <div class="div">
-        <div class="line col-lg-12 mt-4">
-        <div class="mb-4">
-                <hr ></hr>
-            </div>
+
+        <div class="line col-lg-12 pt-4">
+          <div class="mb-4">
+            <hr></hr>
+          </div>
         </div>
-    </div>
         <div
           className=" contactico row-4 col-lg-4 
         "

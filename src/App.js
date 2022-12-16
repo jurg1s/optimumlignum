@@ -21,15 +21,12 @@ function App() {
       <div className="container">
         <ScrollToTop>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />}  />
             <Route path="/kontaktai" element={<Kontaktai />} />
             <Route path="/apiemus" element={<Apiemus />} />
             <Route path="/visuomeniniai" element={<Visuomeniniai />} />
             <Route path="/individualus" element={<Individualus />} />
-            <Route
-              path="/baldurestauravimas"
-              element={<Baldurestauravimas />}
-            />
+            <Route path="/baldurestauravimas" element={<Baldurestauravimas />}/>
             <Route path="/baldugamyba" element={<Baldugamyba />} />
             <Route path="/interjeras" element={<Interjeras />} />
           </Routes>

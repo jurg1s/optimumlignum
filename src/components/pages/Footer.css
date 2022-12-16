@@ -5,6 +5,7 @@ footer {
   height: 40px;
 }
 
+
 footer.container p {
   padding: 0;
   margin: 0;
@@ -30,7 +31,7 @@ footer a:hover {
   
 }
 .up{
-  background-color:#0a1229;
+  background-color:#e6e6e6;
   height: 100%;
   /* background-color:#FE7865; */
 
@@ -39,11 +40,11 @@ footer a:hover {
 
 .fimage {
   mix-blend-mode: screen;
-opacity: 0.5;
+opacity: 0.6;
   background-repeat: repeat;
   background-image: url("/public/images/wood-background.jpg");
   background-attachment: fixed;
-  filter: blur(5px);
+  /* filter: blur(5px); */
   background-size: 100%;
   background-position: bottom 0px right 0px;
     width: 100%;
