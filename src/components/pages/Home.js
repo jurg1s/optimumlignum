@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="hero_image row">
         <div className="hero_text row-6 col-lg-6 ">
-          <h2>Sveiki</h2>
+          <h2>Optimum Lignum</h2>
           <h5>
             Naudojant modernias technologijas ir patyrusią komandą, mes siekiame
             užtikrinti patrauklias ir patvarias baldų ir medienos paslaugas,
