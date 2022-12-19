@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -6,13 +7,47 @@ const Footer = () => {
     <>
       <div className="contfooter ">
         <footer className="footercontent">
-          <div className="up ">
-            <div className="fimage "></div>
+          <div className="up container border-left">
+            <div className=" row">
+              <div className="footerinfo row-3 col-lg-3">
+                <h4>apie mus</h4>
+                <p>Naudojant modernias technologijas ir patyrusią komandą, mes siekiame užtikrinti patrauklias ir patvarias baldų ir medienos paslaugas, kurios atitiks jūsų lūkesčius</p>
+
+              </div>
+              <div className="footerinfo row-3 col-lg-3">
+                <h4>kontaktai</h4>
+                <p>Gėlių g. 21, Lentvaris, LT-25114 Trakų r.</p>
+                <p>UAB "Optimum Lignum"</p>
+                <p>300060623</p>
+                <p>	LT100001819111</p>
+                <p>+37061114526</p>
+              
+              </div>
+              <div className="footerinfo row-3 col-lg-3">
+                <h4>nuorodos</h4>
+                <p><a href="https://rekvizitai.vz.lt/imone/uab_optimum_lignum/">- Rekvizitai</a></p>
+                
+              </div>
+              <div className="footerinfo row-3 col-lg-3">
+                <h4>navigacija</h4>
+                <p><Link to={"/"}>- pagrindinis puslapis</Link></p>
+                <p><Link to={"/baldugamyba"}>- baldų gamyba</Link></p>
+                <p><Link to={"/baldurestauravimas"}>- baldų restauravimas</Link></p>
+                <p><Link to={"/interjeras"}>- interjeras</Link></p>
+                <p><Link to={"/individualus"}>- individualūs projektai</Link></p>
+                <p><Link to={"/visuomeniniai"}>- visuomeniniai projektai</Link></p>
+                <p><Link to={"/apiemus"}>- apie mus</Link></p>
+                <p><Link to={"/kontaktai"}>- kontaktai</Link></p>
+                
+
+              
+              </div>
+            </div>
           </div>
         </footer>
 
-        <footer className="container bottom d-flex border-top">
-          <p className="link text-center text-muted">
+        <footer className="container bottom d-flex">
+          <p className="link text-center ">
             &copy;copyright. designed and developed by
             <a href="https://www.jurgis-web.tech/"> jurgis-web.tech</a>
           </p>

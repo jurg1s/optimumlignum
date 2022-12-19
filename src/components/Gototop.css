@@ -1,6 +1,6 @@
 .scrollTop {
   position: fixed;
-  bottom: 2rem;
+  bottom: 2.5rem;
   right: 2rem;
   z-index: 1000;
   cursor: pointer;
@@ -8,7 +8,7 @@
   width: 40px;
   height: 40px;
   opacity: 0.8;
-  background-color:#FF7D00;
+  background-color:#eca949;
 }
 .scrollTop .icon {
   height: 100%;

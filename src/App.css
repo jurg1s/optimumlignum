@@ -5,6 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap');
+ž
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,12 +17,13 @@
 
 }
 ::selection {
-  background: #FF7D00;
+  background: #F79D1D;
   /* background: #ec4d37; */
   color: white;
 
 
 }
+
 
 /* global styling end */
 
