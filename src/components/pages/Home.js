@@ -1,16 +1,15 @@
 import React from "react";
 import "./Home.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 const Home = () => {
   return (
     <>
-      <div className="hero_image row">
+      <div className="hero_image  row ">
         <div className="hero_text row-6 col-lg-6 ">
           <h2>Optimum Lignum</h2>
           <h5>
-            Naudojant modernias technologijas ir patyrusią komandą, mes siekiame
-            užtikrinti patrauklias ir patvarias baldų ir medienos paslaugas,
-            kurios atitiks jūsų lūkesčius
+          Naudojant modernias technologijas ir patyrusią komandą, mes siekiame užtikrinti patrauklias ir patvarias baldų ir medienos paslaugas, kurios atitika aukščiausius standartus.
           </h5>
           <p>
             Sveiki atvykę į Optimum Lignum. Mes esame medžių gavybos ir
@@ -33,7 +32,51 @@ const Home = () => {
       <div class="homecontainer">
         <div className="container">
           <div className="home_content">
-            <h2>Sveiki!</h2>
+            <h2>Mūsų paslaugos</h2>
+            <div className="paslaugos_cont row g-3 ">
+              <div className="paslaugos row-3 col-lg-3 ">
+                <div className="paslaugos_med ">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+              <div className="paslaugos row-3 col-lg-3">
+                <div className="paslaugos_med">
+                  {/* <img src="/images/wood-interior-1.jpg" alt="" /> */}
+                </div>
+              </div>
+
+      
+            </div>
           </div>
         </div>
       </div>

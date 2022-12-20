@@ -37,10 +37,30 @@ footer a:hover {
 
 
 .footerinfo h4{
+  padding-left: 1rem;
+  border-left: 1px solid #2c2e3f83;
   padding-bottom: 20px;
 }
 
 .footerinfo{
   padding: 40px 0;
   opacity: 80%;
+}
+
+
+.funicons{
+  font-family: 'Noto Emoji', sans-serif;
+  color: black!important;
+  opacity: 100%;
+  
+
+  }
+
+.logo-ol{
+width: 100px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+
+
+
 }
