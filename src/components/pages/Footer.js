@@ -30,7 +30,7 @@ const Footer = () => {
                 <p>Įmonės kodas: 300060623</p>
                 <p>
                   <span className="funicons">&#128205;</span> Gėlių g. 21,
-                  Lentvaris, LT-25114 Trakų r.
+                  Lentvaris, LT-25114
                 </p>
                 <p>
                   <span className="funicons">&#128222;</span> +37061114526
@@ -58,28 +58,28 @@ const Footer = () => {
               <div className="footerinfo row-3 col-lg-3">
                 <h4>puslapio navigacija</h4>
                 <p>
-                  <Link to={"/"}>- pagrindinis puslapis</Link>
+                  <Link to={"/"}>~ pagrindinis puslapis</Link>
                 </p>
                 <p>
-                  <Link to={"/baldugamyba"}>- baldų gamyba</Link>
+                  <Link to={"/baldugamyba"}>~ baldų gamyba</Link>
                 </p>
                 <p>
-                  <Link to={"/baldurestauravimas"}>- baldų restauravimas</Link>
+                  <Link to={"/baldurestauravimas"}>~ baldų restauravimas</Link>
                 </p>
                 <p>
-                  <Link to={"/interjeras"}>- interjeras</Link>
+                  <Link to={"/interjeras"}>~ interjeras</Link>
                 </p>
                 <p>
-                  <Link to={"/individualus"}>- individualūs projektai</Link>
+                  <Link to={"/individualus"}>~ individualūs projektai</Link>
                 </p>
                 <p>
-                  <Link to={"/visuomeniniai"}>- visuomeniniai projektai</Link>
+                  <Link to={"/visuomeniniai"}>~ visuomeniniai projektai</Link>
                 </p>
                 <p>
-                  <Link to={"/apiemus"}>- apie mus</Link>
+                  <Link to={"/apiemus"}>~ apie mus</Link>
                 </p>
                 <p>
-                  <Link to={"/kontaktai"}>- kontaktai</Link>
+                  <Link to={"/kontaktai"}>~ kontaktai</Link>
                 </p>
               </div>
             </div>

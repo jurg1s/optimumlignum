@@ -45,6 +45,8 @@
 .btn:hover {
   background-color: transparent !important;
   color: #2C2E3F !important;
+  border-radius: 0!important;
+  width: 100%;
   border: 1px solid #2C2E3F !important;
 }
 .btn:active {
