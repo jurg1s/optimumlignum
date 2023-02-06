@@ -13,6 +13,7 @@
 }
 
 .image-card {
+  opacity: 0.2;
   width: 176px;
   height: 176px;
   /* width: 400px;
@@ -49,7 +50,6 @@
   height: 50px;
   width: 50px;
   transition: 0.2s;
-
 }
 
 img:hover,

@@ -1,10 +1,7 @@
 import React from "react";
-import ImageGallery from "../ImageGallery";
 import "../ImageGallery.css";
+import ImageGallery from "../ImageGallery";
 
-
-
-//MAIN APP COMPONENT
 function Baldugamyba() {
   return (
     <>

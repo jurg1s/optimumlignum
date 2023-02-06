@@ -12,13 +12,12 @@ function ImageGallery() {
   //looping through our images array to create img elements
   const imageCards = images.map((image) => (
     <div className="image-box">
-        <img
+      <img
         className="image-card"
         onClick={() => showImage(image)}
         src={image}
-        />
-        </div>
-  
+      />
+    </div>
   ));
 
   //function to show a specific image in the lightbox, amd make lightbox visible

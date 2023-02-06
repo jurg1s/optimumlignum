@@ -1,15 +1,15 @@
 import React from "react";
-import ImageGallery from "../ImageGallery";
 import "../ImageGallery.css";
+import ImageGallery from "../ImageGallery";
 
-const Baldurestauravimas = () => {
+function Baldurestauravimas() {
   return (
-    <div>
-        <div className="galerija-root">
+    <>
+      <div className="galerija-root">
         <ImageGallery />
       </div>
-    </div>
-  )
+    </>
+  );
 }
 
-export default Baldurestauravimas
+export default Baldurestauravimas;

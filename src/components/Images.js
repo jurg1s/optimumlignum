@@ -1,6 +1,3 @@
-
-
-
 const image1 =
   "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80";
 const image2 =
@@ -16,5 +13,4 @@ const image6 =
 
 //IMAGE ARRAY
 
-export const images = [image1, image2, image3, image4, image5, image6,image1, image2, image3, image4, image5, image6];
-
+export const images = [image1, image2, image3, image4, image5, image6];
