@@ -248,7 +248,7 @@ body {
   height: 10%;
 }
 
-button {
+.text button {
   border: 0;
   padding: 5px;
   border-radius: 0px !important;
@@ -257,7 +257,7 @@ button {
   margin-right: 0px;
   transition: margin 0.5s;
 }
-button:hover {
+.text button:hover {
   transition: 0.3s ease-in-out;
   padding: 5px;
   border-radius: 0px !important;

@@ -1,8 +1,14 @@
-import React from 'react'
+import React from "react";
+import ImageGallery from "../ImageGallery";
+import "../ImageGallery.css";
 
 const Baldurestauravimas = () => {
   return (
-    <h1>Baldų Restauravimas</h1>
+    <div>
+        <div className="galerija-root">
+        <ImageGallery />
+      </div>
+    </div>
   )
 }
 

@@ -17,12 +17,8 @@ const Home = () => {
             </h5>
             <p>
               Sveiki atvykę į Optimum Lignum. Mes esame medžių gavybos ir
-              apdirbimo kompanija. Mes siekiame pasiūlyti aukščiausios kokybės
-              medienos produktus mūsų klientams. Mūsų komanda yra patyrusi ir
-              profesionali, sugebanti suderinti efektyvumą ir dėmesingumą
-              aplinkai. Mes dirbame tik su atsakingai gauta mediena, siekiame
-              sumažinti mūsų pėdsaką gamtoje ir užtikrinti, kad mūsų veikla būtų
-              tvari. Mes tikime, kad mūsų produktai teiks daugelį metų malonumą
+              apdirbimo kompanija. Siekiame pasiūlyti aukščiausios kokybės
+              medienos produktus. Mes tikime, kad mūsų produktai daugelį metų teiks malonumą
               ir naudą mūsų klientams. Ačiū, kad pasirinkote mus!
             </p>
           </div>
@@ -34,7 +30,7 @@ const Home = () => {
       <div className="image_backround">
         <img src="/images/wood-interior-2.3.jpg" alt="" />
       </div>
-      <div class="homecontainer">
+      <div className="homecontainer">
         <div className="container">
           <div className="home_content">
             <h2>Mūsų paslaugos</h2>
@@ -43,12 +39,12 @@ const Home = () => {
                 <img
                   src="/images/home/restauravimas_02.jpg"
                   alt=""
-                  class="image"
+                  className="image"
                 />
-                <div class="text2">baldų restauravimas</div>
-                <div class="overlay">
+                <div className="text2">baldų restauravimas</div>
+                <div className="overlay">
                   <Link to={"/baldurestauravimas"}>
-                    <div class="text">
+                    <div className="text">
                       <div className="slider">&#62;</div>
                       <button>daugiau</button>{" "}
                       <div className="slider">&#62;</div>
@@ -57,11 +53,11 @@ const Home = () => {
                 </div>
               </div>
               <div className="grid-unit">
-                <img src="/images/home/Baldai_04.jpg" alt="" class="image" />
-                <div class="text2">baldų gamyba</div>
-                <div class="overlay">
+                <img src="/images/home/Baldai_04.jpg" alt="" className="image" />
+                <div className="text2">baldų gamyba</div>
+                <div className="overlay">
                   <Link to={"/baldugamyba"}>
-                    <div class="text">
+                    <div className="text">
                       <div className="slider">&#62;</div>
                       <button>daugiau</button>{" "}
                       <div className="slider">&#62;</div>
@@ -73,12 +69,12 @@ const Home = () => {
                 <img
                   src="/images/home/interjeras_01.jpg"
                   alt=""
-                  class="image"
+                  className="image"
                 />
-                <div class="text2"> interjeras</div>
-                <div class="overlay">
+                <div className="text2"> interjeras</div>
+                <div className="overlay">
                   <Link to={"/interjeras"}>
-                    <div class="text">
+                    <div className="text">
                       <div className="slider">&#62;</div>
                       <button>daugiau</button>{" "}
                       <div className="slider">&#62;</div>
@@ -92,12 +88,12 @@ const Home = () => {
                 <img
                   src="/images/home/visuomeniniai_01.jpg"
                   alt=""
-                  class="image"
+                  className="image"
                 />
-                <div class="text2">visuomeniniai projektai</div>
-                <div class="overlay">
+                <div className="text2">visuomeniniai projektai</div>
+                <div className="overlay">
                   <Link to={"/visuomeniniai"}>
-                    <div class="text">
+                    <div className="text">
                       <div className="slider">&#62;</div>
                       <button>daugiau</button>{" "}
                       <div className="slider">&#62;</div>
@@ -109,12 +105,12 @@ const Home = () => {
                 <img
                   src="/images/home/individualus_01.jpg"
                   alt=""
-                  class="image"
+                  className="image"
                 />
-                <div class="text2">individualūs projektai</div>
-                <div class="overlay">
+                <div className="text2">individualūs projektai</div>
+                <div className="overlay">
                   <Link to={"/individualus"}>
-                    <div class="text">
+                    <div className="text">
                       <div className="slider">&#62;</div>
                       <button>daugiau</button>{" "}
                       <div className="slider">&#62;</div>
@@ -138,7 +134,7 @@ export default Home;
   /* <div className="paslaugos_cont row g-3 ">
 <div className="paslaugos row-3 col-lg-3 ">
   <div className="paslaugos_med ">
-    <div class="text">restauravimas</div>
+    <div className="text">restauravimas</div>
     <img src="/images/wood-interior-0.jpg" alt="" />
   </div>
 </div> */

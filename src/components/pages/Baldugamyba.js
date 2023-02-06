@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import ImageGallery from "../ImageGallery";
+import "../ImageGallery.css";
 
-const Baldugamyba = () => {
+
+
+//MAIN APP COMPONENT
+function Baldugamyba() {
   return (
-    <h1>Individualių Baldų Gamyba</h1>
-  )
+    <>
+      <div className="galerija-root">
+        <ImageGallery />
+      </div>
+    </>
+  );
 }
 
-export default Baldugamyba
+export default Baldugamyba;

@@ -17,11 +17,12 @@ function App() {
   return (
     <>
       <Navbar />
+      
 
       <div className="container">
         <ScrollToTop>
           <Routes>
-            <Route path="/" element={<Home />}  />
+            <Route path="/" element={<Home />} />
             <Route path="/kontaktai" element={<Kontaktai />} />
             <Route path="/apiemus" element={<Apiemus />} />
             <Route path="/visuomeniniai" element={<Visuomeniniai />} />

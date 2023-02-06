@@ -52,7 +52,6 @@
 .btn:active {
     background-color: transparent !important;
     color: #eca949 !important;
-    border: 1px solid #eca949 !important;
 }
 
 .form-control {
