@@ -22,19 +22,27 @@ const Apiemus = () => {
       </div>
     
 
-      <div className="client-container">
-        <div className="container">
-          <div className="clients">
-            <img src="/images/logo/clients/strazdelis.webp" alt="" />
-            <img src="/images/logo/clients/maxima.png" alt="" />
-            <img src="/images/logo/clients/Jammi_logo_2.png" alt="" />
-            <img src="/images/logo/clients/wix_logo.webp" alt="" />
-            <img src="/images/logo/clients/cili.png" alt="" />
-          </div>
-        </div>
-      </div>
+
     </div>
+   
   );
 };
 
 export default Apiemus;
+
+
+
+
+
+
+// <div className="client-container">
+// <div className="container">
+//   <div className="clients">
+//     <img src="/images/logo/clients/strazdelis.webp" alt="" />
+//     <img src="/images/logo/clients/maxima.png" alt="" />
+//     <img src="/images/logo/clients/Jammi_logo_2.png" alt="" />
+//     <img src="/images/logo/clients/wix_logo.webp" alt="" />
+//     <img src="/images/logo/clients/cili.png" alt="" />
+//   </div>
+// </div>
+// </div>

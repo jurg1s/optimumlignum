@@ -49,8 +49,9 @@ const Footer = () => {
                   </a>
                 </p>
                 <p>
-                  <a href="https://rekvizitai.vz.lt/imone/uab_optimum_lignum/">                    <span className="funicons">&#128279;</span>
-
+                  <a href="https://rekvizitai.vz.lt/imone/uab_optimum_lignum/">
+                    {" "}
+                    <span className="funicons">&#128279;</span>
                     Rekvizitai
                   </a>
                 </p>
@@ -88,7 +89,7 @@ const Footer = () => {
 
         <footer className="container bottom d-flex">
           <p className="link text-center ">
-            &copy;copyright. designed and developed by
+            Optimum Lignum &copy; 2023 | designed and developed by
             <a href="https://www.jurgis-web.tech/"> jurgis-web.tech</a>
           </p>
         </footer>

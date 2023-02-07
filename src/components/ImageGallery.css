@@ -1,5 +1,12 @@
-.galerija-root {
-  padding: 50px 0;
+.gallery-container h3{
+  padding-top: 100px;
+  text-align: center;
+  color: gray;
+
+}
+
+.image-box {
+  padding: 100px 0;
 }
 
 .image-card-box {
@@ -13,11 +20,10 @@
 }
 
 .image-card {
-  opacity: 0.2;
-  width: 176px;
-  height: 176px;
-  /* width: 400px;
-  height: 400px; */
+  /* width: 176px;
+  height: 176px; */
+  width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 
